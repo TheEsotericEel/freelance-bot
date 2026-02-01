@@ -19,8 +19,6 @@ import asyncio
 
 # ============ CONFIG ============
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-if not BOT_TOKEN:
-    raise ValueError("BOT_TOKEN environment variable not set. Please set it before running the bot.")
 DB_PATH = "freelance_bot.db"
 JOBS_FETCH_INTERVAL = 3600  # 1 hour in seconds
 
